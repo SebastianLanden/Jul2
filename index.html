@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julrim</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to bottom, #1c4d2e, #9b2d20); /* Darker Green to Darker Red */
+            color: #ffffff;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #cccccc; /* Grey background for entire container */
+            color: #2e4057;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #c0392b;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        blockquote {
+            font-size: 1.2em;
+            font-style: italic;
+            margin: 20px 0;
+            color: #555555;
+            background: none; /* Removed white background */
+            padding: 20px;
+            border-left: 10px solid #c0392b; /* Red border for blockquote */
+            border-radius: 10px;
+        }
+        blockquote p {
+            margin-bottom: 20px;
+        }
+        .snowflake {
+            font-size: 3em;
+            animation: float 3s infinite ease-in-out;
+        }
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(10px); }
+            100% { transform: translateY(0); }
+        }
+
+        /* Media Queries for better responsiveness */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2em; /* Smaller title on mobile */
+            }
+            p {
+                font-size: 1.1em; /* Smaller paragraph text on mobile */
+            }
+            blockquote {
+                font-size: 1em; /* Smaller blockquote text */
+                padding: 15px;
+            }
+            .snowflake {
+                font-size: 2em; /* Smaller snowflake */
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.8em; /* Even smaller title for very small screens */
+            }
+            p {
+                font-size: 1em; /* Smaller paragraph text */
+            }
+            blockquote {
+                font-size: 0.9em; /* Smaller blockquote text */
+                padding: 10px;
+            }
+            .snowflake {
+                font-size: 1.5em; /* Even smaller snowflake */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="snowflake">❄</div>
+        <h1>God Jul!</h1>
+        <blockquote>
+            <p>
+                Pronto , pronto…… du får kolla på ditt konto!
+            </p>
+            <p>
+                God Jul <br>
+                Önskar <br>
+                <br> Sebastian & Tobias
+            </p>
+        </blockquote>
+    </div>
+</body>
+</html>
